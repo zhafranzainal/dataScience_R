@@ -36,4 +36,4 @@ var(dataClean$Humerus)
 var(dataClean$Ulna)
 
 # 2nd approach
-apply(dataClean[,c(4:6)], 2, var)
+apply(dataClean[,4:6], 2, var)

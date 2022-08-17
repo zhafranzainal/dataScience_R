@@ -15,7 +15,7 @@ DataStructureC <- matrix(1:25, nrow = 5, ncol = 5, byrow = T)
 DataStructureC
 
 #Q1(d)
-A <- unlist(list('Rice', 'Maize', 'Oats', 'Barley', 'Wheat', 'Sorghum'))
+A <- c('Rice', 'Maize', 'Oats', 'Barley', 'Wheat', 'Sorghum')
 B <- list(Rye = 'Rye', Quinoa = 'Quinoa', Millet = 'Millet')
 DataStructureD <- list(A, Cereals = B)
 DataStructureD
